@@ -3,5 +3,6 @@
 ## Apache HTTP Server
 
 - [Einstieg in das AWS Academy Learner Lab](learner-lab.md)
-- [Hinzufügen einer EC-Instanz](creating-ec-instance.md)
-- [Installation Apache HTTP Server](installing-http-server.md)
+- [Hinzufügen einer EC2-Instanz](creating-ec2-instance.md)
+- [Zugriff auf die EC2-Instanz](accessing-ec2-instance.md)
+- [Installation des Apache HTTP Servers](installing-http-server.md)
