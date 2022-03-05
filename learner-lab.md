@@ -1,6 +1,6 @@
 # Einstieg in das AWS Academy Learner Lab
 
-1. Folgen Sie in Moodle dem Link [AWS Academy Learner Lab}(https://awsacademy.instructure.com/). Falls die Kursübersicht angezeigt wird, wählen Sie den Kurs **AWS Academy Learner Lab - Foundation Services**
+1. Folgen Sie in Moodle dem Link [AWS Academy Learner Lab](https://awsacademy.instructure.com/). Falls die Kursübersicht angezeigt wird, wählen Sie den Kurs **AWS Academy Learner Lab - Foundation Services**
 1. Wechseln Sie in die Modulansicht mittels **Modules**. ![](media/learner-lab-1.png)
 1. Öffnen Sie das **Learner Lab - Foundational Services** durch Anklicken.
 1. Starten Sie das Lab durch Klick auf den Button **Start Lab**. Das Starten kann mehrere Minuten brauchen.
