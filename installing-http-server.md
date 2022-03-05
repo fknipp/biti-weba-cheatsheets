@@ -24,6 +24,31 @@ ausgeführt werden.
     ```
 1. Bestätigen Sie die Frage, ob die Pakete installiert werden sollen, mit Y.
 
+## Starten und Stoppen des Apache HTTP Servers
+
+Fedora Linux verwendet systemd, entsprechend wird `systemctl` zur Bedienung der Dienste verwendet.
+
+- Status des Dienstes
+    ```
+    sudo systemctl status httpd
+    ```
+- Start des Dienstes
+    ```
+    sudo systemctl start httpd
+    ```
+- Stopp des Dienstes
+    ```
+    sudo systemctl stop httpd
+    ```
+- Start des Dienstes beim Systemstart aktivieren
+    ```
+    sudo systemctl enable httpd
+    ```
+- Start des Dienstes beim Systemstart deaktivieren
+    ```
+    sudo systemctl disable httpd
+    ```
+
 ## Konfigurationsdateien
 
 Die Konfigurationsdateien des Apache-Servers befinden sich in */etc/httpd*. Die Hauptkonfigurationsdatei ist */etc/httpd/conf/httpd.conf*.
