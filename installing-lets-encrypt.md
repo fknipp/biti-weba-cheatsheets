@@ -27,3 +27,9 @@ Die Einrichtung der Zertifikate ist über den **certbot** komplett automatisiert
     ```
 1. Prüfen Sie die Erreichbarkeit und das Zertifikat durch Aufruf von https://student.weba.ditm.at
 1. Untersuchen Sie die geänderten und neuen Konfigurationsdateien. Sie finden deren Pfade in der Ausgabe vom Aufruf von **certbot**.
+
+## Links
+
+- [Let's Encrypt](https://letsencrypt.org/)
+- [certbot](https://certbot.eff.org/)
+- [RFC 8555 Automatic Certificate Management Environment (ACME)](https://datatracker.ietf.org/doc/html/rfc8555)
