@@ -12,6 +12,9 @@
 - [Anlegen eines Virtual Hosts](creating-virtual-host.md)
 - [Einrichtung von Let's Encrypt](installing-lets-encrypt.md)
 
+## Websprachen
+
+- [Hinzufügen von Unterstützung für .mjs-Dateien](adding-mjs-support.md)
 
 ## Diverse Tipps und Tricks
 
