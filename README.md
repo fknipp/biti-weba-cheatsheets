@@ -15,6 +15,7 @@
 ## Websprachen
 
 - [Hinzufügen von Unterstützung für .mjs-Dateien](adding-mjs-support.md)
+- [Einrichten eines Reverse Proxy](adding-reverse-proxy.md)
 
 ## Diverse Tipps und Tricks
 
