@@ -51,4 +51,23 @@ Die Installation erfolgt gemäß [Pwning OWASP Juice Shop](https://pwning.owasp-
 
 Für den Zugriff kann entweder der Port 3000 in den Sicherheitsrichtlinien geöffnet oder ein Reverse Proxy gemäß [Anleitung](adding-reverse-proxy.md) eingerichtet werden.
 
+## Alternative Einrichtung über Feld Benutzerdaten
 
+Beim Starten einer EC2-Instanz können direkt Befehle ausgeführt werden. Diese müssen in das Feld Benutzerdaten eingegeben werden.
+
+```
+#!/bin/bash
+
+sudo -u ec2-user /bin/bash -l <<EOF
+cd
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+. ~/.nvm/nvm.sh
+nvm install v16
+wget https://github.com/juice-shop/juice-shop/releases/download/v14.0.1/juice-shop-14.0.1_node16_linux_x64.tgz
+tar xvfz juice-shop-14.0.1_node16_linux_x64.tgz
+cd juice-shop_14.0.1
+npm start >> /home/ec2-user/juice-shop.log
+EOF
+```
+
+Beim ersten Start der Instanz wird auch gleich die Anwendung gestartet. Bei späteren Starts erfolgt der Start wie oben beschrieben.
