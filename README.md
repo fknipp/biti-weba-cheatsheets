@@ -17,6 +17,10 @@
 - [Hinzufügen von Unterstützung für .mjs-Dateien](adding-mjs-support.md)
 - [Einrichten eines Reverse Proxy](adding-reverse-proxy.md)
 
+## Sicherheit
+
+- [Einrichtung des OWASP Juice Shop](setting-up-juice-shop.md)
+
 ## Diverse Tipps und Tricks
 
 - [Python Web Server](python-web-server.md)
