@@ -64,7 +64,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 . ~/.nvm/nvm.sh
 nvm install v16
 wget https://github.com/juice-shop/juice-shop/releases/download/v14.0.1/juice-shop-14.0.1_node16_linux_x64.tgz
-tar xvfz juice-shop-14.0.1_node16_linux_x64.tgz
+tar xvfz juice-shop-14.0.1_node16_linux_x64.tgz > /dev/null
 cd juice-shop_14.0.1
 npm start >> /home/ec2-user/juice-shop.log
 EOF
