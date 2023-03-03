@@ -6,6 +6,7 @@
 - [Hinzufügen einer EC2-Instanz](creating-ec2-instance.md)
 - [Zugriff auf die EC2-Instanz](accessing-ec2-instance.md)
 - [Installation des Apache HTTP Servers](installing-http-server.md)
+- [Zuweisung einer fixen IP-Adresse](assigning-elastic-ip.md)
 
 ## HTTPS
 
