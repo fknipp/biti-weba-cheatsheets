@@ -6,7 +6,7 @@
 1. Drücken Sie auf **Verbinden** oberhalb der Tabelle.
 1. Drücken Sie auf **Verbinden** unter dem Formular.
 
-Im Browserfenster wird ein Terminal emuliert. Die Shell wird angezeigt.
+Im Browserfenster wird ein Terminal emuliert. Die Shell wird in einem neuen Tab angezeigt.
 
 ## Über SSH
 
@@ -18,5 +18,5 @@ Alternativ kann über SSH auf die Instanz zugegriffen werden. Dazu benötigen Si
 1. Wechseln Sie in das Verzeichnis der Downloads.
 1. Starten Sie die Verbindung mittels 
    ```
-   ssh -i labuser.pem ec2-user@<öffentliche IPv4-Adresse>
+   ssh -i labsuser.pem ec2-user@<öffentliche IPv4-Adresse>
    ```
