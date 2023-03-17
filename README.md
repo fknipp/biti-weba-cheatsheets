@@ -25,3 +25,4 @@
 ## Diverse Tipps und Tricks
 
 - [Python Web Server](python-web-server.md)
+- [Stoppschutz für eine EC2-Instanz einrichten](change-stop-protection.md)
