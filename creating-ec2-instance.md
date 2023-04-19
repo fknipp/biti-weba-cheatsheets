@@ -3,7 +3,7 @@
 1. Öffnen Sie die AWS Management Console.
 1. Öffnen Sie das **Services**-Menü. Wählen Sie **Datenverarbeitung** und weiters **EC2**.
 1. Erstellen Sie eine neue Instanz durch Klick auf **Instance starten**
-    1. Wählen Sie **Amazon Linux 2 AMI** (vorselektiert) aus.
+    1. Wählen Sie **Amazon Linux 2 AMI** (nicht Amazon Linux 2023) aus.
     1. Wählen Sie für den Instance-Typ **t2.micro** (vorselektiert) aus.
     1. Wählen Sie das vorhandene Schlüsselpaar **vockey** aus.
     1. Wählen Sie die unter **Netzwerkeinstellungen** die Regeln aus:
