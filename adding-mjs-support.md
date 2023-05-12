@@ -62,7 +62,7 @@ Um die bestehende Konfigurationsdatei nicht zu ändern, wird eine neue Konfigura
 
 In dieser Datei wird der MIME-Type **application/javascript** für diese Endung konfiguriert.
 
-    AddType application/javascript .mjs
+    AddType text/javascript .mjs
 
 Danach ist ein Neuladen der Konfiguration erforderlich.
 
