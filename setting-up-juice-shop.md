@@ -53,21 +53,15 @@ Für den Zugriff kann entweder der Port 3000 in den Sicherheitsrichtlinien geöf
 
 ## Alternative Einrichtung über Feld Benutzerdaten
 
-Beim Starten einer EC2-Instanz können direkt Befehle ausgeführt werden. Diese müssen in das Feld Benutzerdaten eingegeben werden.
+Beim Starten einer EC2-Instanz können direkt Befehle ausgeführt werden. Diese müssen in das Feld Benutzerdaten eingegeben werden ([Quelle](https://pwning.owasp-juice.shop/part1/running.html#amazon-ec2-instance)).
 
 ```
 #!/bin/bash
-
-sudo -u ec2-user /bin/bash -l <<EOF
-cd
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-. ~/.nvm/nvm.sh
-nvm install v16
-wget https://github.com/juice-shop/juice-shop/releases/download/v14.0.1/juice-shop-14.0.1_node16_linux_x64.tgz
-tar xvfz juice-shop-14.0.1_node16_linux_x64.tgz > /dev/null
-cd juice-shop_14.0.1
-npm start >> /home/ec2-user/juice-shop.log
-EOF
+yum update -y
+yum install -y docker
+service docker start
+docker pull bkimminich/juice-shop
+docker run -d -p 80:3000 bkimminich/juice-shop
 ```
 
-Beim ersten Start der Instanz wird auch gleich die Anwendung gestartet. Bei späteren Starts erfolgt der Start wie oben beschrieben.
+Beim ersten Start der Instanz wird auch gleich die Anwendung gestartet. Bei späteren Starts muss am Prompt die letzte Zeile eingegeben werden.
