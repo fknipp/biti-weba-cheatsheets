@@ -11,4 +11,4 @@ Das Learner Lab läuft vier Stunden und wird danach automatisch beendet. Beim Be
 
 Die Laufzeit kann durch einen weiteren Klick auf **Start Lab** um vier Stunden verlängert werden.
 
-Im Learner Lab steht ein Guthaben von 100$ für dieses Semester zur Verfügung. Sie sehen in der Kopfleiste, wie viel davon schon verbraucht ist.
+Im Learner Lab steht ein Guthaben von 50$ für dieses Semester zur Verfügung. Sie sehen in der Kopfleiste, wie viel davon schon verbraucht ist.
